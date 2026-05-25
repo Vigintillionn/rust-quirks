@@ -5,8 +5,8 @@ Welcome to the companion repository for the **[Rust Type System Quirks](https://
 ## The Series
 
 | #   | Quirk          | Crate                                | Blog Post                                                        | Description                                                                                               |
-| --- | -------------- | ------------------------------------ | ---------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | --- |
-| 01  | **GhostCells** | [`01-ghost-cells`](./01-ghost-cells) | [From Lifetimes to Ghosts](https://www.yarne.me/blog/ghostcells) | Using invariant lifetimes and generative closures as zero-cost compile-time proofs to tame cyclic graphs. |     |
+| --- | -------------- | ------------------------------------ | ---------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| 01  | **GhostCells** | [`01-ghost-cells`](./01-ghost-cells) | [From Lifetimes to Ghosts](https://www.yarne.me/blog/ghostcells) | Using invariant lifetimes and generative closures as zero-cost compile-time proofs to tame cyclic graphs. |
 
 ## How to use this repository
 
