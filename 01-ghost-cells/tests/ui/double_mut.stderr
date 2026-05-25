@@ -1,0 +1,10 @@
+error[E0499]: cannot borrow `token` as mutable more than once at a time
+  --> tests/ui/double_mut.rs:10:39
+   |
+ 9 |         let mut_a = cell_a.borrow_mut(&mut token);
+   |                                       ---------- first mutable borrow occurs here
+10 |         let mut_b = cell_b.borrow_mut(&mut token);
+   |                                       ^^^^^^^^^^ second mutable borrow occurs here
+11 |
+12 |         *mut_a += 1;
+   |         ----------- first borrow later used here
